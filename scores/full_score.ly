@@ -6,7 +6,7 @@
 \book {
   \bookpart {
     \section "Lauda Sion"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
@@ -68,7 +68,7 @@
         \new FiguredBass { \LaudaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 90 } % 60 – 80 – 60 – 70 – 90
     }
   }
 }
